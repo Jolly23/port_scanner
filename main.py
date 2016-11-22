@@ -6,4 +6,4 @@ from nucleus_scan import distribute_ip
 
 
 if __name__ == "__main__":
-    distribute_ip(get_ip_list(), db_scan=True)
+    distribute_ip(get_ip_list(), db_scan=False)
